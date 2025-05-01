@@ -2,7 +2,7 @@
 
 {
   boot = {
-    kernelParams = [ "nvidia-drm.fbdev=1" ];
+    kernelParams = [ "nvidia-drm.fbdev=1" ]; # Needed for Wayland to function properly
   };
 
   hardware = {
